@@ -1,13 +1,13 @@
-# 🎵 Music Mood Recommender
+# Music Mood Recommender
 
 A web application that recommends songs based on the user's selected mood.
 
-## 📌 About
+## About
 
 A university web development project built with PHP and CodeIgniter 3.  
 Users can select a mood and receive related songs from the MySQL database. The application also includes a contact form for storing user messages.
 
-## ✨ Features
+## Features
 
 - Mood-based song recommendation
 - Database-driven song retrieval
@@ -15,14 +15,14 @@ Users can select a mood and receive related songs from the MySQL database. The a
 - Music facts section
 - MVC architecture
 
-## 🛠️ Technologies
+## Technologies
 
 Backend: PHP, CodeIgniter 3  
 Database: MySQL  
 Frontend: HTML, CSS  
 Architecture: MVC
 
-## 📸 Screenshots
+## Screenshots
 
 | Home Page | Mood Selection |
 |:---:|:---:|
@@ -32,7 +32,7 @@ Architecture: MVC
 |:---:|:---:|
 | ![Recommended Songs](screenshots/recommended-songs.png) | ![Contact Us](screenshots/contact-us.png) |
 
-## 🚀 How to Run
+## How to Run
 
 1. Install XAMPP.
 2. Copy the project into the htdocs directory.
