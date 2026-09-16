@@ -56,4 +56,6 @@ The database.sql file is provided to create and populate the database.
    application/config/database.php
 
 6. Start Apache and MySQL from XAMPP.
-7. Open the project in your browser:    http://localhost/Music-Mood-Recommender/
+7. Open the project in your browser:
+
+   http://localhost/Music-Mood-Recommender/
