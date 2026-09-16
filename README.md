@@ -1,48 +1,59 @@
-# Music Mood Website
+# Music Mood Recommender
 
-A simple web application built with CodeIgniter that recommends songs based on the user's mood.
+A web application that recommends songs based on the user's selected mood.
 
+## 📌 About the Project
 
-## Features
+Music Mood Recommender is a web application developed with PHP and CodeIgniter 3.
 
-- Choose a mood (Happy, Sad, Love, Instrumental)
-- Get song suggestions from MySQL database
+The user can select a mood such as Happy, Sad, Love, or Instrumental and receive a list of songs associated with that mood.
+
+The application also includes a contact form for submitting user messages, which are stored in the MySQL database.
+
+## ✨ Features
+
+- Mood-based song recommendation
+- Song data retrieval from MySQL database
+- Contact form with message storage
 - Music facts section
-- Contact form with message storage in database
-- MVC architecture (Model-View-Controller)
+- MVC architecture
+- Database-driven content
 
-
-## Technologies
+## 🛠️ Technologies
 
 - PHP
 - CodeIgniter 3
-- MySQL (phpMyAdmin)
-- HTML, CSS
+- MySQL
+- HTML
+- CSS
+- MVC
 
+## 🗄️ Database
 
-## Project Structure
+The application uses MySQL and includes separate tables for:
 
-- application/ → Main code (controllers, models, views)
-- assets/ → CSS and JS files
-- index.php → Entry point
+- Songs
+- User messages
 
+The database.sql file is provided to create and populate the database.
 
-## Installation
+## 📁 Project Structure
 
-1. Copy the project to htdocs.
-2. Create music_db database with songs and messages tables.
-3. Update database config in application/config/database.php.
-4. Open localhost/your-folder-name in browser.
+- application/ → Controllers, Models, Views and application configuration
+- assets/ → CSS and other frontend assets
+- system/ → CodeIgniter framework files
+- database.sql → Database structure and sample data
+- index.php → Application entry point
 
+## 🚀 How to Run
 
-## Database Setup
+1. Install XAMPP.
+2. Copy the project folder into the htdocs directory.
+3. Create a MySQL database named music_blog.
+4. Import the database.sql file into the database.
+5. Check the database configuration in:
+   
+   application/config/database.php
 
-1. Create a database named music_blog.
-2. Import the database.sql file.
-3. Update database credentials in application/config/database.php:
-
-`php
-'hostname' => 'localhost',
-'username' => 'root',
-'password' => '', //
-'database' => 'music_db',
+6. Start Apache and MySQL from XAMPP.
+7. Open the project in your browser:    http://localhost/Music-Mood-Recommender/
