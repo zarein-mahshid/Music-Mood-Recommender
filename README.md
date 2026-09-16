@@ -45,6 +45,17 @@ The database.sql file is provided to create and populate the database.
 - database.sql → Database structure and sample data
 - index.php → Application entry point
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Mood Selection
+![Mood Selection](screenshots/mood-selection.png)
+
+### Recommended Songs
+![Recommended Songs](screenshots/recommended-songs.png)
+
 ## 🚀 How to Run
 
 1. Install XAMPP.
